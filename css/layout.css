@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+header, nav, ul, li {
+    display: flex;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-row {
+    flex-direction: column;
+}
+
+.column-reverse-row {
+    flex-direction: column-reverse;
+}
+
+.column-row-reverse {
+    flex-direction: column;
+}
+
+.row-column {
+    flex-direction: row;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.start {
+    justify-content: start;
+}
+
+.end {
+    justify-content: end;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-0 {
+    flex: 0;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.shrink-1 {
+    flex-shrink: 1;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* IPADS AND TABLETS */
+@media (min-width: 600px) {
+    .container {
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .column-row {
+        flex-direction: row;
+    }
+
+    .column-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .column-reverse-row {
+        flex-direction: row;
+    }
+
+    .row-column {
+        flex-direction: column;
+    }
+}
+
+/* LAPTOPS */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .column-row {
+        flex-direction: row;
+    }
+
+    .column-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .column-reverse-row {
+        flex-direction: row;
+    }
+
+    .row-column {
+        flex-direction: column;
+    }
+}
+
+/* LARGE SCREENS */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .column-row {
+        flex-direction: row;
+    }
+
+    .column-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .column-reverse-row {
+        flex-direction: row;
+    }
+
+    .row-column {
+        flex-direction: column;
+    }
+}
